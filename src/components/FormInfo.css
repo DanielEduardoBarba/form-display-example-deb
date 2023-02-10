@@ -1,0 +1,27 @@
+.form-submit{
+    background-color: burlywood;
+    border: 3px solid lightblue;
+    border-radius: 30px;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
+}
+
+.submit-btn{
+    background-color: wheat;
+    border: 3px solid brown;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+}
+
+.submit-btn:active{
+    transform: scale(0.7);
+    transition: .2 linear;
+}
