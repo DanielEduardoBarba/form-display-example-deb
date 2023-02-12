@@ -1,10 +1,12 @@
-import { useEffect,useState, createContext } from "react"
+import { useEffect,useState, useContext } from "react"
+import { List } from "../App.js"
 import Cards from "./Cards"
 import "./Letters.css"
 import { url } from "../CONNECTION.js"
 
 export default function Letters(){
-   const[letter, setLetter] = useState([])
+  
+    const {letter,setLetter} = useContext(List)
    
     const[updateUI, setUpdateUI] = useState(0)
     const[outbound, setOutbound] = useState({})
